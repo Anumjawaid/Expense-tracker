@@ -5,11 +5,11 @@ import {TransactionProvider} from './transContext';
 
 function App() {
   return (
-    <>
+    <div className="container">
     <TransactionProvider>
     <Child></Child>
     </TransactionProvider>
-    </>
+    </div>
   );
 }
 
