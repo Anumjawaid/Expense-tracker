@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Child from './history';
 import {TransactionProvider} from './transContext';
